@@ -1,3 +1,5 @@
+from installSpeed import mainFunction
+mainFunction()
 import os
 import csv
 import re
