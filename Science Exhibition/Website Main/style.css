@@ -1,0 +1,46 @@
+body {
+    background-color: #111111;
+    color: #FFFFFF;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {    
+    background-color: #1E1E1E;
+    color: #FFFFFF;
+    padding: 1em 0;
+    text-align: center;
+
+}
+
+
+
+nav{
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+nav a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    transition: color 0.3s ease-in-out, text-shadow 0.3s ease-in-out;
+}
+
+nav a:hover {
+    color: #ff4081;
+    text-shadow: 0 0 10px #ff4081;
+}
+
+
+
+
+
+
+
+/* animation effects */
